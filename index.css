@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(245, 244, 244);
+}
+.container {
+    max-width: 300px;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+.headingText{
+    font-weight: 700;
+}
+
+#sign-in-btn {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+a { 
+    color: rgb(197, 35, 35);
+}
