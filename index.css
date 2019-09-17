@@ -97,11 +97,20 @@ a {
 
 .facebook-btn{
     border: 1px solid steelblue;
+
 }
 
 .google-btn{
     border: 1px solid #DD4B39;
 }
+
+
+}
+
+.google-btn{
+    border: 1px solid #DD4B39;
+}
+
 
 .icon-facebook {
     color: steelblue;
