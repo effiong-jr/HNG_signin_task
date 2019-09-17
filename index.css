@@ -33,6 +33,12 @@ body {
     border-radius: 10px;
 }
 
+.errors {
+    /* display: block; */
+    font-size: 12px;
+    color: red;
+}
+
 .headingText {
     font-weight: 700;
 }
@@ -91,11 +97,20 @@ a {
 
 .facebook-btn{
     border: 1px solid steelblue;
+
 }
 
 .google-btn{
     border: 1px solid #DD4B39;
 }
+
+
+}
+
+.google-btn{
+    border: 1px solid #DD4B39;
+}
+
 
 .icon-facebook {
     color: steelblue;
