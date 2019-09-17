@@ -33,6 +33,12 @@ body {
     border-radius: 10px;
 }
 
+.errors {
+    /* display: block; */
+    font-size: 12px;
+    color: red;
+}
+
 .headingText {
     font-weight: 700;
 }
