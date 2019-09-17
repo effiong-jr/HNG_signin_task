@@ -2,27 +2,62 @@ body {
     background-color: rgb(245, 244, 244);
 }
 .container {
-    max-width: 300px;
+    width:500px; 
+         height:500px; 
+         position: relative; 
+         margin: auto;
+         margin-top: 60px;
+         font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+         top:0px; 
+         left:0px; 
+         background: linear-gradient(to bottom, #4169e1 25%, white 10%, white 100%, white 100%);
+}
+
+.inner {
+    width: 350px;
+    height: 240px;
     font-family: 'Lato', sans-serif;
     margin: auto;
     text-align: center;
-    margin-top: 50px;
+    margin-top: -415px;
     padding: 20px;
-    box-shadow: 2px 2px 5px lightgray;
+    font-size: 15px;
+    top:0px; 
+    left:0px;
+    box-shadow: 2px 2px 5px gray;
+    position: relative;
+    background-color: white
 }
 
-.headingText{
+.headingText {
     font-weight: 700;
 }
 
 #sign-in-btn {
-    margin-bottom: 20px;
+    margin-left: 100px;
+    color: #4169e1;
+    background-color: white;
+    width: 100px;
+    height: 35px;
 }
+
 
 p {
     font-size: 15px;
 }
 
 a { 
-    color: rgb(197, 35, 35);
+    color: gray
+}
+
+.form-group{
+    border: solid #4169e1;
+    border-width: 1px;
+}
+
+.line{
+    white-space: nowrap;
+    color: gray;
 }
