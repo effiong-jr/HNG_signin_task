@@ -87,15 +87,32 @@ a {
 
 .loginIcons {
     margin: 20px;
-    border: 1px solid steelblue;
+    /* border: 1px solid steelblue; */
     padding: 4px;
     border-radius: 5px;
     width: 100px;
     background-color: white;
+    transition-delay: .25s
 }
 
-.icon {
+.facebook-btn{
+    border: 1px solid steelblue;
+}
+
+.google-btn{
+    border: 1px solid #DD4B39;
+}
+
+.icon-facebook {
     color: steelblue;
+}
+
+.icon-google {
+    color: #DD4B39;
+}
+
+.google-btn:hover,.facebook-btn:hover{
+    transform: scale(1.2);
 }
 
 hr {
