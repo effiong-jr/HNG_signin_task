@@ -2,13 +2,34 @@ body {
     background-color: rgb(245, 244, 244);
 }
 .container {
-    max-width: 300px;
+    padding: 0px;
+    max-width: 400px;
     font-family: 'Lato', sans-serif;
     margin: auto;
     text-align: center;
     margin-top: 50px;
-    padding: 20px;
     box-shadow: 2px 2px 5px lightgray;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#formTitle {
+    background-color: steelblue;
+    height: 100px;
+    padding-top: 20px;
+    color: white; 
+    font-weight: 700;
+}
+
+.form-container {
+    max-width: 300px;
+    background-color: white;
+    margin-top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 5px gray;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .headingText{
