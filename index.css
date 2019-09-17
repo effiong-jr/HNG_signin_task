@@ -27,6 +27,7 @@ body {
     margin-top: -40px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     box-shadow: 2px 2px 5px gray;
     padding: 10px;
     border-radius: 10px;
@@ -56,12 +57,42 @@ body {
     height: 35px;
 }
 
-
-p {
-    font-size: 15px;
+#forgotPassword {
+    margin-top: 20px;
+    font-size: 0.8rem;
 }
+
 
 a { 
     color: gray
 }
 
+#altLoginDivider {
+    display: flex;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+}
+
+#altLogin {
+    display: flex;
+    justify-content: center;
+}
+
+.loginIcons {
+    margin: 20px;
+    border: 1px solid steelblue;
+    padding: 4px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: white;
+}
+
+.icon {
+    color: steelblue;
+}
+
+hr {
+    width: 70px;
+    border: 1px solid steelblue;
+}
