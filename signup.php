@@ -10,7 +10,7 @@ session_start();
     <title>Sign Up</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="indexx.css" />
 </head>
 <body>
     <div class="container">
@@ -27,7 +27,7 @@ session_start();
                     }
                 ?>
             </p>
-            <form method="post" action="process.php">
+            <form method="post" action="process_local.php">
                 <!-- fullname -->
                 <div class="form-group">
                     <div class="form-group">
