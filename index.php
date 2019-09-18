@@ -1,11 +1,15 @@
 <?php
 session_start();
+if (isset($_SESSION['email'])) {
+    header("Location: landing.php");
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="index.css" />
+        <link rel="stylesheet" type="text/css" href="indexx.css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">        
         <script src="https://kit.fontawesome.com/9fa6718cf3.js"></script>
         <title>HNG Internship | Sign In</title>
@@ -26,7 +30,7 @@ session_start();
                         }
                     ?>
                 </p>
-                <form method="POST" action="process.php">
+                <form method="POST" action="process_local.php">
                     <div class="form-group">
                             
                         <div class="input-group-prepend">
@@ -74,6 +78,6 @@ session_start();
             </div>
         </div>
 
-        <script src="./index.js"></script>
+        <script src="./indexx.js"></script>
     </body>
 </html>
