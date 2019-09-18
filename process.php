@@ -21,7 +21,7 @@ session_start();
  
            if(file_exists('data.json'))  
            {  
-                $current_data = file_get_contents('employee_data.json');
+                $current_data = file_get_contents('data.json');
                 $array_data = json_decode($current_data, true);  
 
                 $extra = array(  
@@ -30,9 +30,6 @@ session_start();
                      'password'     =>     $password  
                 );  
                 $array_data[] = $extra;  
-                array_push($tempArray, $array_data);
-                $jsonData = json_encode($tempArray);
-                file_put_contents('results.json', $jsonData);
                 $final_data = json_encode($array_data);  
                 if(file_put_contents('data.json', $final_data))  
                 {  
